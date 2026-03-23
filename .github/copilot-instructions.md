@@ -1,22 +1,22 @@
-# Project Description
+# 项目说明
 
-This project is an educational website for sharing homework assignments and coding exercises with students. Students can browse, view, and download assignments directly from the portal.
+这是一个用于与学生共享作业与编程练习的教学网站。学生可以在门户中浏览、查看并下载作业与练习材料。
 
-## Project Structure
+## 项目结构
 
-- [`assignments/`](../assignments/) Each homework assignment is stored in its own subfolder with a consistent structure.
-- [`templates/`](../templates/) Reusable templates for new content
-- [`assets/`](../assets/) Contains the website assets including CSS, JavaScript, images, and configuration files
-- [`index.html`](../index.html) The main website page that serves as a static portal for browsing and viewing assignments. Content is configurable via [`config.json`](../config.json) file to dynamically generate assignment lists and details.
+- [assignments/](../assignments/)：每个作业放在各自的子文件夹中，遵循统一结构。
+- [templates/](../templates/)：可复用的内容模板。
+- [assets/](../assets/)：网站静态资源（CSS、JavaScript、图片、配置等）。
+- [index.html](../index.html)：主页面，作为静态门户展示与访问作业；通过 [config.json](../config.json) 配置动态生成作业列表与详情。
 
-## Project Guidelines
+## 项目规范
 
-- Maintain consistent styling across all pages
-- Keep file and folder names descriptive and organized
+- 保持所有页面样式一致。
+- 文件与文件夹名称保持描述性与有序。
 
-## Educational Standards
+## 教学准则
 
-When generating content for this project:
+在为本项目生成内容时，请遵循：
 
-- **Learning-focused**: All content should be designed with clear learning objectives and appropriate difficulty levels
-- **Student-friendly**: Use clear, encouraging language that motivates students
+- **以学习为中心**：内容应有明确的学习目标并匹配合适的难度。
+- **学生友好**：使用清晰、鼓励性的语言以提高学生参与度。
