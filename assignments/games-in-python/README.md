@@ -1,5 +1,7 @@
 # 📘 Assignment: Hangman Game Challenge
 
+> 🟡 **难度 / Difficulty：中级 (Intermediate)**
+
 （中文：Hangman 游戏挑战）
 
 ## 🎯 Objective
@@ -61,3 +63,13 @@ Remaining incorrect attempts: 5
 ```
 
 **Skills practiced / 练习技能:** String manipulation, loops, conditionals, random selection, user input handling.
+
+## 🚀 Advanced Challenges / 进阶挑战
+
+> 完成以上任务后，尝试以下进阶挑战来加深理解！
+
+1. **ASCII Art Hangman / ASCII 图形版 Hangman**：Display a visual ASCII-art hangman figure that updates with each incorrect guess (from empty gallows to full figure in 6 stages). / 在每次猜错时显示逐步变化的 ASCII 艺术 Hangman 图形（从空绞架到完整图形共 6 个阶段）。
+
+2. **Difficulty Levels / 难度级别**：Add `easy`, `medium`, and `hard` modes using word lists of different lengths (e.g., ≤4, 5–7, ≥8 letters) and different numbers of allowed attempts. / 使用不同长度的单词列表（如 ≤4、5–7、≥8 个字母）和不同的允许尝试次数，添加 `easy`、`medium` 和 `hard` 三种难度模式。
+
+3. **Hint System / 提示系统**：Allow the player to use one "hint" per game that reveals a random unrevealed letter, but deducts one remaining attempt as a penalty. / 允许玩家每局游戏使用一次"提示"，随机揭示一个未猜出的字母，但会扣减一次剩余尝试次数作为惩罚。

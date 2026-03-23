@@ -1,5 +1,7 @@
 # 📘 Assignment: Python Text Processing
 
+> 🟡 **难度 / Difficulty：中级 (Intermediate)**
+
 ## 🎯 Objective
 
 Build utilities for processing and analyzing text files. Students will practice string manipulation, file I/O, regular expressions, and basic text statistics (word/line counts, frequency analysis).
@@ -57,3 +59,13 @@ python text_tool.py --grep sample.txt "^Chapter" > chapters.txt
 ```
 
 **Skills practiced / 练习技能:** String manipulation, file I/O, regular expressions, text parsing, command-line argument parsing.
+
+## 🚀 Advanced Challenges / 进阶挑战
+
+> 完成以上任务后，尝试以下进阶挑战来加深理解！
+
+1. **Word Cloud / 词云**：Use the `wordcloud` library to generate a visual word cloud from the input file and save it as a PNG image. / 使用 `wordcloud` 库从输入文件生成可视化词云并保存为 PNG 图片。
+
+2. **Sentiment Analysis / 情感分析**：Integrate a basic sentiment analysis using `TextBlob` or a word-score lookup to classify each line or paragraph as positive, neutral, or negative. / 使用 `TextBlob` 或词分数查找，对每行或每段进行正面、中性、负面的情感分类。
+
+3. **Multi-file Batch Processing / 多文件批量处理**：Extend the program to accept a directory path and process all `.txt` files within it, outputting a combined summary report. / 扩展程序以接受目录路径，处理其中所有 `.txt` 文件，并输出汇总报告。
